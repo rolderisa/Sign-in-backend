@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+        .form{
+            height: 500px;
+            width: 500px;
+            background-color: rgb(29, 120, 120);
+          position: fixed;
+          padding-left: 30px;
+          padding-top: 100px;
+          margin-left: 300px;
+         margin-top:  50px;
+         border-radius: 20px;
+         opacity: 0.8;
+         box-shadow: 20px 33px 24px rgb(15, 15, 65);
+        }
+        main{
+            align-items: center;
+        }
+    
+        #name {
+            height: 50px;
+            width: 400px;
+            opacity:0.8;
+            margin-top: 20px;
+            background-color: black;
+            color: aliceblue;
+        }
+        #password {
+            height: 50px;
+            width: 400px;
+            opacity:0.8;
+            margin-top: 20px;
+            background-color: black;
+            color: aliceblue;
+        }
+        #email{
+            height: 50px;
+            width: 400px;
+            opacity:0.8;
+            margin-top: 20px;
+            background-color: black;
+            color: aliceblue;
+        }
+        #signup{
+            width: 150px;
+            height: 50px;
+border-radius: 50px;
+
+background-color:black;
+color: aliceblue;
+        }
+        .signup{
+           
+            font-family: cursive;
+            color: antiquewhite;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+    <main>
+        <form action="/login" method="post">
+            <h1 class="signup">sign up</h1>
+      <label for="name"></label><input type="text" name="name" id="name" placeholder="enter your names"><br>
+      <label for="email"></label><input type="email" name="email" id="email" placeholder="enter you email"><br>
+      <label for="password"></label><input type="password" name="password" id="password" placeholder="create password"><br><br>
+      <button type="submit" id="signup">Sign Up</button>
+     
+</form>
+<a href="signin.html">Have an account,Login in</a>
+
+</a>
+</div>
+</main>
+    
+
+  
+    
+</body>
+</html>

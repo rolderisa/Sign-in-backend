@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+        .form{
+            height: 300px;
+            width: 500px;
+            background-color: rgb(29, 120, 120);
+          position: fixed;
+          padding-left: 30px;
+          padding-top: 100px;
+          margin-left: 300px;
+         margin-top:  50px;
+         border-radius: 20px;
+         opacity: 0.8;
+         box-shadow: 20px 33px 24px blue;
+        }
+        main{
+            align-items: center;
+        }
+        .table{
+            margin: 50px auto;
+        }
+        table, td, th{
+             border-collapse:collapse ;
+             border: 1px solid black ;
+
+        }
+        th, td{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+    <main>
+        <label for="name">name:</label>
+        <input type="text" name="name" id="name">
+        <button id="addnamebutton">Add name</button>
+        <br>
+        <br>
+        <div>
+            <input placeholder="search by name"><button>search</button>
+        </div>
+        <br>
+        <table id="table" border="1" cellpaddind="0" cellspacing="0">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Date added</th>
+                <th>Delete</th>
+                <th>Edit</th>
+            </tr>
+            <tbody>
+                
+            </tbody>
+        </table>
+        
+    </div>
+</main>
+    <div>
+    
+</div>
+
+  
+    
+</body>
+</html>
